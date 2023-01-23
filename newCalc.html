@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Calculator</title>
+<link rel="stylesheet" href="newcalStyle.css">
+</head>
+<body>
+ <table class="center" style="width:50%">
+  <tr style="height:50px">
+    <th class="company" colspan="2">CALCULATOR</th>
+    <td colspan="3"; style="background-color: black"></td>
+  </tr>
+  <tr>
+    <th class="sl" colspan="2" style="text-align: left";>SL-500VC</th>
+    <th class="sl" colspan="3">Two way Power</th>
+  </tr>
+  <tr style="height:35px">
+      <th id="display" colspan="5"> </th>
+  </tr>
+  <tr style="height:35px">
+    <td class="sidebutton"><button class="sidebutton" onclick="syntaxError()">H/M/S</button></td>
+    <td class="sidebutton"><button class="sidebutton" onclick="sqrt()">Sqrt</button></td>
+    <td class="sidebutton"><button class="sidebutton" onclick="display('%')">%</td>
+    <td class="sidebutton"><button class="sidebutton" onclick="syntaxError()">TAX-</button></td>
+    <td class="sidebutton"><button class="sidebutton" onclick="syntaxError()">TAX+</button></td>
+  </tr>
+  <tr style="height:35px">
+    <td class="sidebutton"><button type="reset" class="sidebutton" onclick="memory.clearMemory()">MC</td>
+    <td class="sidebutton"><button type="reset" class="sidebutton" onclick="memory.returnTop()">MR</td>
+    <td class="sidebutton"><button class="sidebutton" onclick="memory.pop()">M-</button></td>
+    <td class="sidebutton"><button class="sidebutton"onclick="">M+</button></td>
+    <td class="sidebutton"><button class="sidebutton" onclick="display('/')">/</button></td>
+  </tr>
+  <tr style="height:35px">
+    <td class="sidebutton"><button class="sidebutton" onclick="syntaxError()">+/-</button></td>
+    <td class="centerbutton"><button class="centerbutton" onclick="display('7')">7</td>
+    <td class="centerbutton"><button class="centerbutton" onclick="display('8')">8</td>
+    <td class="centerbutton"><button class="centerbutton" onclick="display('9')">9</td>
+    <td class="sidebutton"><button class="sidebutton" onclick="display('*')">*</td>
+  </tr>
+  <tr style="height:35px">
+    <td class="sidebutton"><button class="sidebutton" onclick="syntaxError()">></button></td>
+    <td class="centerbutton"><button class="centerbutton" onclick="display('4')">4</td>
+    <td class="centerbutton"><button class="centerbutton" onclick="display('5')">5</td>
+    <td class="centerbutton"><button class="centerbutton" onclick="display('6')">6</td>
+    <td class="sidebutton"><button class="sidebutton" onclick="display('-')">-</td>
+  </tr>
+  <tr style="height:35px">
+    <td class="sidebutton" rowspan="2"><button class="sidebutton" style="height: 100%; width: 100%;" onclick="display('+')">+</td>
+    <td class="centerbutton"><button class="centerbutton" onclick="display('1')">1</td>
+    <td class="centerbutton"><button class="centerbutton" onclick="display('2')">2</td>
+    <td class="centerbutton"><button class="centerbutton"onclick="display('3')">3</td>
+    <td class="ctype"><button type="reset" class="ctype" onclick="clrscr()">C</td>
+  </tr>
+  <tr style="height:35px">
+    <td class="centerbutton"><button class="centerbutton" onclick="display('0')">0</td>
+    <td class="centerbutton"><button class="centerbutton"onclick="display('.')">.</td>
+    <td class="sidebutton"><button class="sidebutton" onclick="decResult()">=</td>
+    <td class="ctype"><button type="reset" class="ctype" onclick="clrscr()">AC</td>
+  </tr>
+ </table>
+ <script type="text/javascript" src="newCalJs.js"></script>
+</body>
+</html>

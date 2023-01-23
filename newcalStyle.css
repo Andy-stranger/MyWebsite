@@ -1,0 +1,85 @@
+.company {
+    background-color: hotpink;
+    color:white;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    height:80px;
+  }
+  
+  .sl {
+    background-color: hotpink;
+    color:white;
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    height:25px;
+  }
+
+  .sidebutton {
+    background-color: white;
+    color: hotpink;
+    height: 70px;
+  }
+
+  .centerbutton {
+    background-color: hotpink;
+    color: white;
+    height: 70px;
+  }
+
+  .ctype {
+    background-color: yellow;
+    color: black;
+    height: 70px;
+  }
+
+  #display {
+    background-color: #4a5401;
+    text-align: right;
+    color: black;
+    font-size: 40px;
+    font-family: monospace;
+    height: 50px;
+  }
+
+  h3 {
+  color: black;
+  text-align: center;
+  }
+
+  table, th, td {
+    border:1.5px solid black;
+    background-color: white;
+    text-align: center;
+  }
+   
+  td {
+  font-size: 20px;
+  }
+
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+  #ans-result {
+    text-align: right;
+  }
+
+  button {
+    width: 100%;
+    height: 100%;
+    background-color: hotpink;
+    border-color: white;
+  }
+
+  button.centerbutton:hover {
+    background-color: rgb(193, 66, 130);
+  }
+
+  button.sidebutton:hover {
+    background-color: rgb(198, 192, 192);
+  }
+
+  button.ctype:hover {
+    background-color: rgb(158, 158, 0);
+  }
